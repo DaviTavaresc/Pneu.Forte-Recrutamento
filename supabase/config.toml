@@ -1,0 +1,10 @@
+project_id = "umblhcnvpuggjchjyhqs"
+
+[functions.enviar-email-etapa]
+verify_jwt = false
+
+[functions.gerar-resumo-curriculo]
+verify_jwt = false
+
+[functions.assistente-ia]
+verify_jwt = false
