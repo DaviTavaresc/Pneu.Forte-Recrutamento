@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="#FFD700"/>
+  
+  <!-- Head -->
+  <circle cx="100" cy="70" r="30" fill="#F5DEB3"/>
+  
+  <!-- Hair -->
+  <path d="M 75 50 Q 70 40, 80 38 Q 90 35, 100 36 Q 110 35, 120 38 Q 130 40, 125 50 Z" fill="#2C1810"/>
+  
+  <!-- Eyes -->
+  <circle cx="90" cy="70" r="3" fill="#000"/>
+  <circle cx="110" cy="70" r="3" fill="#000"/>
+  
+  <!-- Smile -->
+  <path d="M 85 80 Q 100 88, 115 80" stroke="#000" stroke-width="2" fill="none" stroke-linecap="round"/>
+  
+  <!-- Body (uniform) -->
+  <rect x="65" y="95" width="70" height="80" rx="10" fill="#000"/>
+  
+  <!-- Yellow stripes on uniform -->
+  <rect x="70" y="100" width="60" height="4" fill="#FFD700"/>
+  <rect x="70" y="110" width="60" height="4" fill="#FFD700"/>
+  
+  <!-- Arms -->
+  <rect x="40" y="100" width="25" height="50" rx="12" fill="#F5DEB3"/>
+  <rect x="135" y="100" width="25" height="50" rx="12" fill="#F5DEB3"/>
+  
+  <!-- Wrench (in right hand) -->
+  <g transform="translate(145, 145) rotate(-30)">
+    <rect x="0" y="0" width="30" height="8" rx="2" fill="#C0C0C0"/>
+    <rect x="25" y="-5" width="10" height="18" rx="2" fill="#C0C0C0"/>
+  </g>
+  
+  <!-- Wheel/Tire (in left hand) -->
+  <g transform="translate(35, 145)">
+    <circle cx="15" cy="15" r="15" fill="#1A1A1A"/>
+    <circle cx="15" cy="15" r="10" fill="#4A4A4A"/>
+    <circle cx="15" cy="15" r="5" fill="#C0C0C0"/>
+  </g>
+  
+  <!-- Belt -->
+  <rect x="65" y="130" width="70" height="8" fill="#8B4513"/>
+  <rect x="95" y="127" width="10" height="14" rx="2" fill="#FFD700"/>
+  
+  <!-- Name tag -->
+  <rect x="80" y="115" width="40" height="12" rx="2" fill="#FFF"/>
+  <text x="100" y="124" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#000" font-weight="bold">PNEU FORTE</text>
+</svg>
